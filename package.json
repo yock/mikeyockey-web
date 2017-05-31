@@ -1,0 +1,29 @@
+{
+  "name": "mikeyockey-web",
+  "version": "1.0.0",
+  "description": "Mike Yockey's personal website",
+  "repository": "git@github.com:yock/mikeyockey-web.git",
+  "main": "index.js",
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Yockey",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-markdown": "^2.5.0",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.0.7"
+  }
+}
